@@ -8,6 +8,7 @@ questions.forEach(function(question){
                 item.classList.remove('show-text')
             }
         })
+        console.log("stuff");
         question.classList.toggle('show-text')
     })
 })
